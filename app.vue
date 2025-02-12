@@ -1,5 +1,7 @@
 <template>
   <div>
-    <Button>Click me</Button>
+    <Button>
+      <Icon name="ic:baseline-play-arrow" />
+    </Button>
   </div>
 </template>
