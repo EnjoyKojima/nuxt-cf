@@ -12,7 +12,7 @@
   },
   "framework": "nuxt",
   "aliases": {
-    "components": "@/components",
-    "utils": "@/utils/cn"
+    "components": "@/app/components",
+    "utils": "@/app/utils/cn"
   }
 }
