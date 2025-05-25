@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.2.0",
-    "@cloudflare/workers-types": "^4.20250204.0",
+    "@cloudflare/workers-types": "^4.20250525.0",
     "@iconify-json/ic": "^1.2.2",
     "@nuxt/eslint": "1.0.1",
     "eslint": "^9.20.1",

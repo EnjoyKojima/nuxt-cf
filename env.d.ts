@@ -1,4 +1,4 @@
-/// <reference types="@cloudflare/workers-types/2023-07-01" />
+/// <reference types="@cloudflare/workers-types/2024-01-01" />
 
 declare module 'h3' {
   interface H3EventContext {
