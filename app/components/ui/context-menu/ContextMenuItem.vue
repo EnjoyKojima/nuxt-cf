@@ -1,0 +1,16 @@
+<script setup lang="ts">
+import { ContextMenu as ContextMenuPrimitive } from 'radix-vue'
+</script>
+
+<template>
+  <ContextMenuPrimitive.Item
+    :class="
+      cn(
+        'relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none data-[disabled]:pointer-events-none data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground data-[disabled]:opacity-50',
+        props.class,
+      )
+    "
+  >
+    <slot />
+  </ContextMenuPrimitive.Item>
+</template>
