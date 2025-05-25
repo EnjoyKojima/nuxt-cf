@@ -24,7 +24,7 @@
     <!-- Footer -->
     <footer class="border-t bg-background px-4 py-6">
       <div class="container mx-auto text-center text-sm text-muted-foreground">
-        &copy; {{ new Date().getFullYear() }} Nuxt CF
+        &copy; {{ new Date().getFullYear() }} Hayato Kojima
       </div>
     </footer>
   </div>
