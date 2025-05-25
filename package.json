@@ -23,7 +23,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-vue-next": "^0.477.0",
-    "nuxt": "^3.15.4",
+    "nuxt": "^3.17.4",
     "radix-vue": "^1.9.13",
     "shadcn-nuxt": "0.11.3",
     "tailwind-merge": "^3.0.1",
@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.2.0",
-    "@cloudflare/workers-types": "^4.20250204.0",
+    "@cloudflare/workers-types": "^4.20250525.0",
     "@iconify-json/ic": "^1.2.2",
     "@nuxt/eslint": "1.0.1",
     "eslint": "^9.20.1",
@@ -41,6 +41,6 @@
     "nitro-cloudflare-dev": "^0.2.1",
     "nitropack": "^2.10.4",
     "typescript": "^5.7.3",
-    "wrangler": "^3.108.1"
+    "wrangler": "^4.16.1"
   }
 }
