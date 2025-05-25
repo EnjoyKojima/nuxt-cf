@@ -4,7 +4,6 @@ export default defineNuxtConfig({
   modules: [
     'nitro-cloudflare-dev',
     '@nuxt/eslint',
-    '@nuxtjs/tailwindcss',
     'shadcn-nuxt',
     '@nuxt/icon',
   ],
@@ -28,5 +27,13 @@ export default defineNuxtConfig({
   shadcn: {
     prefix: '',
     componentDir: './app/components/ui',
+  },
+
+  css: ['~/app/assets/css/tailwind.css'],
+
+  postcss: {
+    plugins: {
+      '@tailwindcss/postcss': {},
+    },
   },
 })
