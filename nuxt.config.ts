@@ -33,7 +33,19 @@ export default defineNuxtConfig({
 
   postcss: {
     plugins: {
+      'postcss-import': {},
       '@tailwindcss/postcss': {},
+    },
+  },
+
+  vite: {
+    css: {
+      postcss: {
+        plugins: {
+          'postcss-import': {},
+          '@tailwindcss/postcss': {},
+        },
+      },
     },
   },
 })
