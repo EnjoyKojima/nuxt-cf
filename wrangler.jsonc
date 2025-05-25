@@ -6,7 +6,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "nuxt-cf",
   "main": "./.output/server/index.mjs",
-  "compatibility_date": "2025-02-04",
+  "compatibility_date": "2024-01-01",
   "assets": {
     "binding": "ASSETS",
     "directory": "./.output/public/"
